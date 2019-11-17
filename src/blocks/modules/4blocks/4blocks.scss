@@ -1,0 +1,151 @@
+.meta1{
+    padding-top: 20px;
+    background-color: #f4f6fa;
+}
+.metal{
+    padding-top: 40px;
+    background-color: #f4f6fa;
+    height: 930px;
+}
+.firstblock{
+    position: absolute;
+    top: 0px;
+    padding:0 5px;
+    margin: 0;
+    height: 800px;
+    z-index: 1;
+}
+.firstblock:hover{
+    background-color: #ffffff;
+    z-index: 10;
+}
+.circles{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #caddea;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.element1{
+    position: absolute;
+    left: 18px;
+    top: 23px;
+}
+.element2{
+    position: absolute;
+    left: 23px;
+    top: 20px;
+}
+.element3{
+  position: absolute;
+  left: 23px;
+  top: 20px; 
+}
+.element4{
+    position: absolute;
+    left: 33px;
+    top: 20px;
+}
+.circles1{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #1b7fd0;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+}
+.firstblock h4{
+    text-align: center;
+    color: #1b7fd0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.firstblock p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+.firstblock ul{
+    margin-bottom: 20px;
+}
+#arrow26{
+    width: 0;
+    height: 0;
+    border-top: 40px solid white;
+    border-right: 40px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    display: none;
+}
+#arrow27{
+    width: 0;
+    height: 0;
+    border-top: 40px solid #827d7d;
+    border-right: 40px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: -13px;
+    display: none;
+}
+.copyblock{
+    height: 800px;
+    background-color: #827d7d;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    top: 5px;
+    left: 32px;
+    width: 90%;
+    filter: blur(0.5px);
+    display: none;
+}
+.col-3:hover .copyblock{
+    display: block;
+    z-index: 0;
+}
+.copyblock:hover{
+    opacity: 0;
+}
+.col-3:hover #arrow26{
+    display: block;
+}
+.col-3:hover #arrow27{
+    display: block;
+}
+.metal .col-3:hover .circles{
+    background-color: #1b7fd0;
+}
+.metal .col-3:hover .circles img{
+    filter: grayscale(1);
+    color: white;
+}
+
+.firstblock a{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.firstblock button{
+    width: 170px;
+    height: 35px;
+    background-color: #075da2;
+    margin-left: 40px;
+}
+.vidstyp{
+    height: 710px;
+}

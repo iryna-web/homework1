@@ -1,0 +1,245 @@
+body{
+    background-color: rgb(255,255,255);
+}
+.banner{
+    position: absolute;
+    right: -100px;
+    z-index: -1;
+}
+.logo{
+    margin-top: 40px;
+}
+.link1{
+    color: rgb(106, 164, 234);
+    border: 2px solid rgb(106, 164, 234);
+    padding: 15px;
+    background: none;
+    width: 270px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+h1{
+    margin-top: 20px;
+    color: #1b7fd0;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    background-color:#caddea;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+#arrow{
+    width: 0;
+    height: 0;
+    border-top: 50px solid #caddea;
+    border-right: 50px solid transparent;
+}
+
+#arrow2{
+    width: 0;
+    height: 0;
+    border-top: 50px solid black;
+    border-right: 50px solid transparent;
+    position: absolute;
+    bottom: -50px;
+}
+.tri{
+    position: relative;
+    top: 30px;
+    height: 100px;
+}
+.triangle, .name{
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.triangle{
+    height: 50px;
+    background-color: black;
+    top: 2px;
+    left: 2px;
+    filter: blur(10px);
+    margin: 0;
+}
+.logo ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.logo li{
+    position: relative;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.logo li::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(106, 164, 234);
+    position: absolute;
+    top: 12px;
+    left: -20px;
+}
+h3{
+    margin-top: 30px;
+    position: relative;
+    left: 37px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.meta{
+    margin-top: 10px;
+    padding-top: 30px;
+}
+h2{
+    color: #1b7fd0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.backwhite{
+    margin-top: 100px;
+    width: 1115px;
+    height: 49px;
+    background-color: #caddea;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+.backwhite p{
+    position: relative;
+    left: 400px;
+    top: 4px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #075da2;
+    text-align: justify;
+}
+.arroiw{
+    position: absolute;
+    top: 0px;
+    left: 650px;
+}
+#arrow23{
+    width: 0;
+    height: 0;
+    border-top: 40px solid #caddea;
+    border-right: 40px solid transparent;
+    margin-bottom: 20px;
+}
+.redline{
+    color: #dd0000;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2.42px;
+}
+.forma select{
+    background: transparent;
+   width: 378px;
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 34px;
+}
+.forma{
+    width: 350px;
+   height: 34px;
+   overflow: hidden;
+   background: url(marker_copy_2.png) no-repeat right #f4f6fa;
+   margin-bottom: 40px;
+}
+.around{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.around p{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.9px;
+    text-transform: uppercase;
+}
+.neoplace{
+    width: 350px;
+    height: 40px;
+    background-color: #dd0000;
+    position: relative;
+    top: 40px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+#arrow24{
+    width: 0;
+    height: 0;
+    border-top: 20px solid #dd0000;
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: 297px;
+}
+.para{
+    width: 350px;
+    height: 55px;
+    padding-top: 15px;
+    position: relative;
+    top: 20px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 44.72px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.usd{
+    font-size: 27px;
+}
+.whitetext{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.meta1{
+    padding-top: 30px;
+    background-color: #f4f6fa;
+}
+.backwhite1{
+    margin-top: 100px;
+    width: 1115px;
+    height: 49px;
+    background-color: #caddea;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+.backwhite1 h2{
+    margin: 0 auto;
+}

@@ -1,0 +1,71 @@
+.drei{
+    background-color: #caddea;
+    margin-top: 190px;
+    padding: 15px;
+}
+.face a{
+   font-size: 25px;
+    color:#1b7fd0;
+}
+.twi a{
+    font-size: 25px;
+    color: #013056;;
+}
+.pin a{
+    font-size: 25px;
+    color: #1b7fd0;
+}
+.nameoncon{
+    background-color: #013056;
+    height: 400px;
+    background-image: url(drive/Bg3.svg);
+    padding-top: 30px;
+}
+.col-2 a{
+    color: #caddea;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    width: 100%;
+}
+.col-12 hr{
+    margin-top: 40px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 35px;
+}
+.kolo{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #caddea;
+    position: absolute;
+    top: 24px;
+    left: 50%;
+}
+.kolo i{
+    font-size: 25px;
+    color: #013056;
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    transform: rotate(45deg);
+}
+.spisok a{
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+.spisok{
+    margin-bottom: 15px;
+}
+.end a{
+    color: #caddea;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+    font-weight: 400; 
+}

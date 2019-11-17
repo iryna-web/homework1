@@ -1,0 +1,118 @@
+.bg-header{
+    background-color: #013056;
+    padding: 5px;
+}
+.one{
+    color: #caddea;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+}
+
+.two{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+.two i{
+    margin-left: 15px;
+}
+.three{
+    background-color: #1b7fd0;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: stretch;
+    height: 35px;
+    margin: 0;
+}
+.four{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.8px; 
+}
+.five{
+    background-color: rgb(202, 221, 234);
+    color: #1b7fd0;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+.let{
+    display: flex;
+    color: white;
+}
+.burger{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fefefe;
+    position: relative;
+    top: 10px;
+}
+.burger::before{
+    content: '';
+    display: block;
+    position: relative;
+    top: -8px;
+    width: 30px;
+    height: 3px;
+    background-color: #fefefe;
+}
+.burger::after{
+    content: '';
+    display: block;
+    position: relative;
+    top: 5px;
+    width: 30px;
+    height: 3px;
+    background-color: #fefefe;
+}
+.pictogram{
+    display: flex;
+}
+.burgerone{
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: #fefefe;
+    position: relative;
+}
+.burgerone::before{
+    content: '';
+    display: block;
+    position: relative;
+    top: -12px;
+    width: 50px;
+    height: 5px;
+    background-color: #fefefe;
+}
+.burgerone::after{
+    content: '';
+    display: block;
+    position: relative;
+    top: 8px;
+    width: 50px;
+    height: 5px;
+    background-color: #fefefe;
+}
+.small{
+    color: #caddea;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
